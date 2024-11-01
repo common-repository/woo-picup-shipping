@@ -1,0 +1,11 @@
+/vendor/
+/build/
+/.idea/
+
+/composer.lock
+/phpunit.xml
+/clover.xml
+/.php_cs.cache
+
+/coverage
+/examples

@@ -1,0 +1,29 @@
+{
+    "name": "picup/woo-picup-plugin",
+    "description": "Woo Shipping plugin to provide Picup Shipping to your WooCommerce store",
+    "type": "wordpress-plugin",
+    "authors": [
+        {
+            "name": "Bryan Paddock",
+            "email": "devops@picup.co.za"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PicupTechnologies\\WooPicupShipping\\": "src/"
+        }
+    },
+    "require": {
+        "picup/picup-php-api": "^1.1",
+        "moneyphp/money": "^3.2"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:PicupTechnologies/picup-php-api.git"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^5"
+    }
+}

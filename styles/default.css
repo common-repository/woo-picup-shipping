@@ -1,0 +1,13 @@
+.delivery_shifts .woocommerce-input-wrapper input {
+  float: left;
+  margin-top: 10px;
+}
+
+.delivery_shifts .woocommerce-input-wrapper label.radio {
+    display: block;
+    clear: both;
+    line-height: 1em;
+
+    float: right;
+    margin-top: -14px;
+}
